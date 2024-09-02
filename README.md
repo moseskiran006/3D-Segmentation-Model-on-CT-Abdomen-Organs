@@ -6,3 +6,7 @@ This project focuses on building a 3D segmentation model for abdominal organs, s
 
 ## Ready to Use Google Colab
 [`Google Colab File`](https://colab.research.google.com/drive/1lMohor2mtlDMzlA94n_Q4ZKknYCUaDea?usp=sharing)
+
+## Download the dataset linked below
+['dataset'](https://drive.google.com/drive/folders/1Or1uBDcfhFPJCA3ASdWVfmVheSDZuiZl?usp=sharing)
+
