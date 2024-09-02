@@ -30,7 +30,7 @@ Normalization of CT scan intensity values.
 Resampling to a consistent voxel size.
 Data augmentation techniques such as rotation, scaling, and flipping.
 
-!(https://github.com/moseskiran006/3D-Segmentation-Model-on-CT-Abdomen-Organs/blob/main/Screenshot%202024-08-31%20232600.png)
+![labeled organs](https://github.com/moseskiran006/3D-Segmentation-Model-on-CT-Abdomen-Organs/blob/main/Screenshot%202024-08-31%20232600.png)
 
 ## Training:
 
