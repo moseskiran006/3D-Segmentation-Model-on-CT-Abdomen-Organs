@@ -30,6 +30,8 @@ Normalization of CT scan intensity values.
 Resampling to a consistent voxel size.
 Data augmentation techniques such as rotation, scaling, and flipping.
 
+!(https://github.com/moseskiran006/3D-Segmentation-Model-on-CT-Abdomen-Organs/blob/main/Screenshot%202024-08-31%20232600.png)
+
 ## Training:
 
 Loss Function: Dice Loss
@@ -52,7 +54,7 @@ Inference:
 
 The trained model was used to predict segmentation masks for unseen CT scans. These predictions were then visualized and compared against ground truth masks.
 
-![3D Visualization](https://github.com/moseskiran006/3D-Segmentation-Model-on-CT-Abdomen-Organs/blob/main/Screenshot%202024-08-31%20232600.png)
+![3D Visualization](https://github.com/moseskiran006/3D-Segmentation-Model-on-CT-Abdomen-Organs/blob/main/Screenshot%202024-09-02%20224815.png)
 
 
 
