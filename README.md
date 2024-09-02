@@ -10,3 +10,47 @@ This project focuses on building a 3D segmentation model for abdominal organs, s
 ## Download the dataset linked below
 ['dataset'](https://drive.google.com/drive/folders/1Or1uBDcfhFPJCA3ASdWVfmVheSDZuiZl?usp=sharing)
 
+## follow the google colab module 
+
+# Model Architecture
+
+The model used in this project is based on the VNet architecture, which is a fully convolutional network specifically designed for 3D medical image segmentation. Key features of the model include:
+
+3D Convolutions: Capture spatial context in all three dimensions.
+Residual Blocks: Enable deeper network structures while maintaining efficiency.
+Skip Connections: Preserve fine-grained details in segmentation.
+
+## Training Process
+
+The training process involved the following steps:
+
+Data Preprocessing:
+
+Normalization of CT scan intensity values.
+Resampling to a consistent voxel size.
+Data augmentation techniques such as rotation, scaling, and flipping.
+
+## Training:
+
+Loss Function: Dice Loss
+Optimizer: Adam
+Learning Rate: 1e-4 with a scheduler
+Epochs: 100
+Validation:
+
+During training, a validation set was used to monitor model performance and prevent overfitting.
+
+# Validation and Inference
+
+The validation and inference processes were designed to evaluate the model's performance:
+
+Metrics:
+
+Dice Score: The primary metric used to evaluate the segmentation accuracy for each organ.
+Hausdorff Distance: Additional metric to measure the similarity between predicted and ground truth boundaries.
+Inference:
+
+The trained model was used to predict segmentation masks for unseen CT scans. These predictions were then visualized and compared against ground truth masks.
+
+
+
